@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Get Google PageSpeed",
+    "description": "Get Google PageSpeed with one click directly in your Chrome browser",
+    "homepage_url": "https://github.com/22nds/chrome-extension-pagespeed",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "Get Google PageSpeed",
+        "default_popup": "popup.html",
+        "default_icon": "favicon.png"
+    },
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["action.js"],
+        "all_frames": true
+    }],
+    "permissions": [
+        "activeTab"
+    ]
+}
