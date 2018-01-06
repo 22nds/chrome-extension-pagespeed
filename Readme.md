@@ -6,7 +6,7 @@ The extension adds an icon to the toolbar so you can get Google PageSpeed loaded
 The extension saves you time as you don't need to copy/paste the link and open Google PageSpeed page in your browser.
 
 ## Look and feel
-![Image of Google PageSpeed Chrome Extension](extension.png)
+![Image of Google PageSpeed Chrome Extension](images/extension.png)
 
 ## Installation
 
